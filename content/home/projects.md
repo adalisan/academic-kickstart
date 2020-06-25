@@ -1,12 +1,25 @@
 +++
-# A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Projects widget.
+# Note: this widget will only display if `content/project/` contains projects.
+
+date = "2016-04-20T00:00:00"
+draft = false
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
 
 title = "Projects"
 subtitle = ""
+widget = "portfolio"
+
+# Order that this section will appear in.
+weight = 65
+
+# View.
+# Customize how projects are displayed.
+# Legend: 0 = list, 1 = cards.
+view = 1
+
+
 
 [content]
   # Page type to display. E.g. project.
@@ -73,5 +86,31 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+# Filter toolbar.
+# Add or remove as many filters (`[[filter]]` instances) as you like.
+# Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
+# To remove toolbar, delete/comment all instances of `[[filter]]` below.
+
+# [[filter]]
+#  name = "All"
+#  tag = "*"
+  
+# [[filter]]
+#  name = "Machine Learning"
+#  tag = ".machine-learning"
+
+# [[filter]]
+#  name = "Other"
+#  tag = ".demo"
+
+# [[filter]]
+#  name = "Data Analysis"
+#  tag = ".data-analysis"
+
+# [[filter]]
+#  name = "Graph Analysis"
+#  tag = ".graph-analysis"
+
+
 +++
 
