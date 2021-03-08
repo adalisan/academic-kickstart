@@ -17,7 +17,7 @@ subtitle = ""
 
 
 # Number of talks to list.
-count = 10
+count = 3
 
 # Show talk details (such as abstract)? (true/false)
 detailed_list = false
@@ -27,7 +27,7 @@ detailed_list = false
   page_type = "talk"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 5
+  count = 0
   
   # Choose how many pages you would like to offset by
   offset = 0
